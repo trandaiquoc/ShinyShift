@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "shinyshift",
+  "version": "${version}",
+  "name": "ShinyShift [COBBLEMON]",
+  "description": "Convert your own Pokémon into shiny form using a special evolution-like ritual.",
+  "authors": [
+    "rakoon"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com",
+    "sources": "https://github.com/rakoon/ShinyShift"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.rakoon.shinyshift.fabric.ShinyShiftFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.1",
+    "fabric-api": "*",
+    "architectury": "*",
+    "cobblemon": "*"
+  },
+  "recommends": {
+    "modmenu": "*"
+  },
+  "icon": "assets/shinyshift/icon.png"
+}

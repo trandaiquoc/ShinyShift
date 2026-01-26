@@ -1,0 +1,13 @@
+{
+  "modmenu.nameTranslation.shinyshift": "ShinyShift [COBBLEMON]",
+  "modmenu.descriptionTranslation.shinyshift": "Dùng ngọc đặc biệt để chuyển Pokémon thành dạng Shiny.",
+
+  "item.shinyshift.shiny_exchange_gem": "Ngọc Hoán Đổi Shiny",
+
+  "tooltip.shinyshift.only_owner": "Chỉ dùng được cho Pokémon của bạn",
+  "tooltip.shinyshift.not_wild": "Không áp dụng cho Pokémon hoang dã",
+  "tooltip.shinyshift.consume": "Bị tiêu hao khi sử dụng",
+  "tooltip.shinyshift.shiny_only": "Không dùng được cho Pokémon đã Shiny",
+
+  "itemGroup.shinyshift.main": "Đổi Shiny"
+}

@@ -1,0 +1,11 @@
+{
+  "shiny_exchange": {
+    "category": "players",
+    "sounds": [
+      {
+        "name": "shinyshift:shiny",
+        "stream": false
+      }
+    ]
+  }
+}

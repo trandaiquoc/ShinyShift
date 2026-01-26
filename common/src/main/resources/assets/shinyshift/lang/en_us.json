@@ -1,0 +1,13 @@
+{
+  "modmenu.nameTranslation.shinyshift": "ShinyShift [COBBLEMON]",
+  "modmenu.descriptionTranslation.shinyshift": "Use a special gem to turn your Pokémon into its shiny form.",
+
+  "item.shinyshift.shiny_exchange_gem": "Shiny Exchange Gem",
+
+  "tooltip.shinyshift.only_owner": "Only works on your own Pokémon",
+  "tooltip.shinyshift.not_wild": "Does not work on wild Pokémon",
+  "tooltip.shinyshift.consume": "Consumed on use",
+  "tooltip.shinyshift.shiny_only": "Cannot be used on shiny Pokémon",
+
+  "itemGroup.shinyshift.main": "ShinyShift"
+}

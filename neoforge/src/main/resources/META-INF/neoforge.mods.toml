@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "shinyshift"
+version = "${version}"
+displayName = "ShinyShift"
+authors = "Rakoon"
+description = '''
+Adds Shiny Exchange Gem for Cobblemon.
+Allows converting owned Pokémon into shiny form
+with a custom evolution-style effect.
+'''
+logoFile = "assets/shinyshift/icon.png"
+
+[[dependencies.shinyshift]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.218,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.shinyshift]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.shinyshift]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.shinyshift]]
+modId = "cobblemon"
+type = "required"
+versionRange = "[1.7.0,)"
+ordering = "AFTER"
+side = "BOTH"

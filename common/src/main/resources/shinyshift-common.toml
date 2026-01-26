@@ -1,0 +1,14 @@
+# ShinyShift Config
+
+# Delay trước khi shiny (tick)
+# 20 tick = 1 giây
+shinyDelayTicks = 40
+
+# Có tiêu hao item không
+consumeItem = true
+
+# Có phát sound không
+playSound = true
+
+# Sound khi shiny
+soundEvent = "minecraft:entity.player.levelup"
