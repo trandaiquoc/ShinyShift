@@ -9,7 +9,7 @@
     "A": { "item": "minecraft:netherite_block" },
     "L": { "item": "minecraft:sea_lantern" },
     "N": { "item": "minecraft:nether_star" },
-    "S": { "item": "cobblemon:shiny_stone" },
+    "S": { "item": "cobblemon:shiny_stone_block" },
     "I": { "item": "minecraft:glow_ink_sac" },
     "G": { "item": "minecraft:glowstone" }
   },

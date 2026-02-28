@@ -100,8 +100,8 @@ public class EvolutionEffectHandler {
                         entity.blockPosition(),
                         sound,
                         SoundSource.MASTER,
-                        6.5F,
-                        1.1F
+                        7F,
+                        1.2F
                 );
             }
         }

@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "shinyshift:item/shiny_exchange_gem"
-  }
+  "parent": "shinyshift:item/shiny_exchange_gem_3d"
 }

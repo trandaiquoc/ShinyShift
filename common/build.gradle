@@ -8,6 +8,5 @@ dependencies {
     modCompileOnly "net.fabricmc:fabric-loader:$project.fabric_loader_version"
     modImplementation "dev.architectury:architectury:$project.architectury_api_version"
 
-    //modCompileOnly "io.wispforest:accessories-common:${project.accessories_version}"
     modCompileOnly "com.cobblemon:mod:${project.cobblemon_version}"
 }

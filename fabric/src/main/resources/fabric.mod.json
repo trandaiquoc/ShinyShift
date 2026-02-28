@@ -8,8 +8,9 @@
     "rakoon"
   ],
   "contact": {
-    "homepage": "https://modrinth.com",
-    "sources": "https://github.com/rakoon/ShinyShift"
+    "homepage": "https://modrinth.com/mod/shinyshift",
+    "sources": "https://github.com/trandaiquoc/ShinyShift",
+    "discord": "https://discord.gg/KvQRzHrA"
   },
   "license": "MIT",
   "environment": "*",
@@ -18,6 +19,9 @@
       "com.rakoon.shinyshift.fabric.ShinyShiftFabric"
     ]
   },
+  "mixins": [
+    "shinyshift.fabric.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.18.4",
     "minecraft": "1.21.1",

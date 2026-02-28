@@ -13,7 +13,7 @@ public class ShinyShiftTabs {
 
     public static final DeferredRegister<CreativeModeTab> TABS =
             DeferredRegister.create(ShinyShift.MOD_ID, Registries.CREATIVE_MODE_TAB);
-
+    @SuppressWarnings("unused")
     public static final RegistrySupplier<CreativeModeTab> MAIN_TAB =
             TABS.register("main",
                     () -> CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0)

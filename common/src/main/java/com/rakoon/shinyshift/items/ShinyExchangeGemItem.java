@@ -90,7 +90,7 @@ public class ShinyExchangeGemItem extends Item {
     }
 
     // =========================
-    // ALWAYS GLINT
+    // ALWAYS GLINT and LIGHT
     // =========================
     @Override
     public boolean isFoil(ItemStack stack) {

@@ -18,7 +18,6 @@ public class ShinyShift {
 
         ShinyShiftItems.register();
         ShinyShiftTabs.register();
-        ShinyShiftTabs.MAIN_TAB.get();
         EvolutionEffectHandler.init();
     }
 }

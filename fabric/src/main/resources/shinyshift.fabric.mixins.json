@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.rakoon.shinyshift.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ItemRendererMixin",
+    "ItemInHandRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
