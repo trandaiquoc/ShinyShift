@@ -38,26 +38,19 @@ dependencies {
     modImplementation "com.cobblemon:fabric:${project.cobblemon_version}"
 }
 
-tasks.processResources {
-    inputs.property "version", project.version
+processResources {
+    inputs.property 'version', project.version
 
     filesMatching('fabric.mod.json') {
-        expand "version": project.version
+        expand version: project.version
     }
 }
-
 
 shadowJar {
     configurations = [project.configurations.shadowBundle]
     archiveClassifier = 'dev-shadow'
 }
 
-tasks.remapJar {
-    dependsOn tasks.shadowJar
-    archiveClassifier.set("")
-    from(tasks.shadowJar)
-}
-
-tasks.withType(JavaCompile).configureEach {
-    options.compilerArgs += "-Xlint:-deprecation"
+remapJar {
+    input.set shadowJar.archiveFile
 }

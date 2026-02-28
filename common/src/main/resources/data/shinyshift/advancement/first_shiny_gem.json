@@ -1,0 +1,24 @@
+{
+  "parent": "shinyshift:root",
+  "display": {
+    "icon": {
+      "id": "shinyshift:shiny_exchange_gem",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.shinyshift.first_shiny.title"
+    },
+    "description": {
+      "translate": "advancement.shinyshift.first_shiny.description"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

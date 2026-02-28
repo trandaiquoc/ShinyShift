@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "LLL",
-    "NSN",
-    "GIM"
+    "LSG",
+    "NAN",
+    "ISI"
   ],
   "key": {
+    "A": { "item": "minecraft:netherite_block" },
     "L": { "item": "minecraft:sea_lantern" },
-    "N": { "item": "minecraft:netherite_ingot" },
+    "N": { "item": "minecraft:nether_star" },
     "S": { "item": "cobblemon:shiny_stone" },
-
-    "G": { "item": "minecraft:glowstone" },
     "I": { "item": "minecraft:glow_ink_sac" },
-    "M": { "item": "minecraft:crying_obsidian" }
+    "G": { "item": "minecraft:glowstone" }
   },
   "result": {
     "id": "shinyshift:shiny_exchange_gem",

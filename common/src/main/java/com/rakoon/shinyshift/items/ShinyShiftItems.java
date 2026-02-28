@@ -1,11 +1,11 @@
 package com.rakoon.shinyshift.items;
 
 import com.rakoon.shinyshift.ShinyShift;
-import com.rakoon.shinyshift.registry.ShinyShiftTabs;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 
 public class ShinyShiftItems {
 
@@ -16,8 +16,9 @@ public class ShinyShiftItems {
             ITEMS.register(
                     "shiny_exchange_gem",
                     () -> new ShinyExchangeGemItem(
-                            new Item.Properties().stacksTo(16)
-                                    .arch$tab(ShinyShiftTabs.MAIN_TAB) // ← tab được gắn ở đây
+                            new Item.Properties()
+                                    .stacksTo(16)
+                                    .rarity(Rarity.EPIC)
                     )
             );
 

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "shinyshift:shiny_exchange_gem",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.shinyshift.root.title"
+    },
+    "description": {
+      "translate": "advancement.shinyshift.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
